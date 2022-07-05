@@ -1,9 +1,11 @@
 import './App.css';
 
+import Hello_world from './components/Hello_world.js';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
+      <Hello_world />
     </div>
   );
 }
